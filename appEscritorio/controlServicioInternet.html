@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>documentacion</title>
+	<link rel="icon" href="../assets/icons/isotipo.png">
+	<!---->
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="../assets/css/main.css">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+</head>
+
+<body class="bg-blue-primary position-relative mood-web" data-bs-spy="scroll" data-bs-target="#scrollSpyBody"
+	data-bs-smooth-scroll="true" tabindex="0">
+	<div class="header-area">
+		<nav class="container-xxl navbar navbar-expand-lg navbar-light bg-transparent p-0">
+			<div class="header position-relative gap-3 w-100 px-2 px-xxl-0">
+				<!-- brand logo -->
+				<div class="header__logo">
+					<a href="../index.html"><img src="../assets/icons/Recurso 1.png" width="200" class="light-logo"
+							alt="logo"></a>
+					<span>Documentation</span>
+				</div>
+				<!-- Serach -->
+				<div class="form-floating m-0 d-none d-md-block box-search">
+					<input type="email" class="form-control form-bar-top rounded-pill" id="searchInput"
+						placeholder="name@example.com">
+					<label for="floatingInput">Buscar..</label>
+					<i class="fa fa-search position-absolute top-0 end-0 bottom-0 my-auto me-2" aria-hidden="true"
+						style="height: fit-content;"></i>
+					<i class="fa fa-times position-absolute top-0 end-0 bottom-0 my-auto close-input" aria-hidden="true"
+						style="height: fit-content;visibility: hidden;"></i>
+				</div>
+				<!--menu mobile-->
+				<a class="opem-menu-mobile d-lg-none" data-bs-toggle="offcanvas" href="#menuMobile" role="button"
+					aria-controls="menuMobile">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</a>
+				<!-- mobile -->
+				<div class="offcanvas offcanvas-start bd-sidebar-mobile d-lg-none pb-0" tabindex="-1" id="menuMobile"
+					caria-labelledby="menuMobileLabel" aria-hidden="true">
+					<div class="offcanvas-header px-1 gap-5">
+						<a href="index.html">
+							<img src="../assets/icons/Recurso 1.png" width="200" class="light-logo" alt="">
+						</a>
+						<button type="button"
+							class="btn-close bg-close-none bg-transparent border-0 p-0 h-auto w-auto m-0"
+							data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-times"
+								aria-hidden="true"></i></button>
+					</div>
+					<div class="offcanvas-body d-flex flex-column gap-3 pb-0">
+						<div class="form-floating m-0 box-search">
+							<input type="email" class="form-control form-bar-top rounded-pill" id="searchInput"
+								placeholder="name@example.com">
+							<label for="floatingInput">Buscar..</label>
+							<i class="fa fa-search position-absolute top-0 end-0 bottom-0 my-auto me-2"
+								aria-hidden="true" style="height: fit-content;"></i>
+							<i class="fa fa-times position-absolute top-0 end-0 bottom-0 my-auto close-input"
+								aria-hidden="true" style="height: fit-content;visibility: hidden;"></i>
+						</div>
+
+						<aside class="bd-sidebar p-0 bg-transparent h-100 mb-auto top-0 position-relative ">
+							<!--menu Web  -->
+							<div class="accordion main-web" id="box-sidebar">
+								<div class="menu-item">
+									<h2 class="accordion-header" id="panelsStayOpen-headingOne">
+										<button class="btn-collapse-menu bg-transparent border-0" type="button"
+											data-bs-toggle="collapse" data-bs-target="#box-one" aria-expanded="true"
+											aria-controls="box-one">
+											<i class="fas fa-chevron-up arrow"
+												aria-hidden="true"></i>Introducción</button>
+									</h2>
+									<div id="box-one" class="accordion-collapse collapse show"
+										aria-labelledby="panelsStayOpen-headingOne">
+										<div class="accordion-body py-1 px-0 menu-body">
+											<nav>
+												<div class="nav nav-menu " id="nav-tab" role="tablist">
+													<a class="py-1 px-3 active" id="obtener-firma-electronica-tab"
+														data-bs-toggle="tab" data-bs-target="#obtener-firma-electronica"
+														role="tab" aria-controls="obtener-firma-electronica"
+														aria-selected="true">Item 1</a>
+													<a class="py-1 px-3" id="autorizacionSRI-tab" data-bs-toggle="tab"
+														data-bs-target="#autorizacionSRI" role="tab"
+														aria-controls="autorizacionSRI" aria-selected="true">Item 2</a>
+												</div>
+											</nav>
+										</div>
+									</div>
+								</div>
+								<!--  -->
+								<div class="menu-item">
+									<h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+										<button class="btn-collapse-menu bg-transparent border-0" type="button"
+											data-bs-toggle="collapse" data-bs-target="#box-two" aria-expanded="true"
+											aria-controls="box-two">
+											<i class="fas fa-chevron-up arrow"
+												aria-hidden="true"></i>Funcionalidad</button>
+									</h2>
+									<div id="box-two" class="accordion-collapse collapse show"
+										aria-labelledby="panelsStayOpen-headingTwo" style="">
+										<div class="accordion-body py-1 px-0 menu-body">
+											<nav>
+												<div class="nav nav-menu " id="nav-tab" role="tablist">
+													<a class="py-1 px-3" id="facturero-sofadcon-tab"
+														data-bs-toggle="tab" data-bs-target="#facturero-sofadcon"
+														role="tab" aria-controls="facturero-sofadcon"
+														aria-selected="true">Item 1</a>
+												</div>
+											</nav>
+										</div>
+									</div>
+								</div>
+
+
+
+
+							</div>
+
+
+						</aside>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<!-- - -->
+	<div class="container-xxl bd-layout p-0 ps-lg-2">
+
+		<div class="d-flex flex-column bd-sidebar bg-transparent p-0">
+			<!-- Mood diseño -->
+			<div class="container-menu">
+				<div class="dropdown me-auto ">
+					<button class="mood-pageBtn dropdown-toggle w-100" type="button" data-bs-toggle="dropdown"
+						aria-expanded="false" id="megaMenu">
+						Información: Control Servicio de Internet
+					</button>
+					<ul class="dropdown-menu bg-transparent box-mega-menu border-0 p-0">
+					</ul>
+				</div>
+			</div>
+			<!--  -->
+			<aside class="bd-sidebar d-none d-lg-block">
+				<!-- web -->
+				<div class="accordion main-web" id="box-sidebar">
+					<!--  -->
+					<div class="menu-item">
+						<h2 class="accordion-header" id="panelsStayOpen-headingOne">
+							<button class="btn-collapse-menu bg-transparent border-0" type="button"
+								data-bs-toggle="collapse" data-bs-target="#box-one" aria-expanded="true"
+								aria-controls="box-one">
+								<i class="fas fa-chevron-up arrow" aria-hidden="true"></i>
+								Introducción
+							</button>
+						</h2>
+						<div id="box-one" class="accordion-collapse collapse show"
+							aria-labelledby="panelsStayOpen-headingOne">
+							<div class="accordion-body py-1 px-0 menu-body">
+								<nav>
+									<div class="nav nav-menu " id="nav-tab" role="tablist">
+										<a class="py-1 px-3 active" id="obtener-firma-electronica-tab"
+											data-bs-toggle="tab" data-bs-target="#obtener-firma-electronica" role="tab"
+											aria-controls="obtener-firma-electronica" aria-selected="true"> item1 </a>
+										<a class="py-1 px-3" id="autorizacionSRI-tab" data-bs-toggle="tab"
+											data-bs-target="#autorizacionSRI" role="tab" aria-controls="autorizacionSRI"
+											aria-selected="true">Item2</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<!--  -->
+					<div class="menu-item">
+						<h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+							<button class="btn-collapse-menu bg-transparent border-0 collapsed" type="button"
+								data-bs-toggle="collapse" data-bs-target="#box-two" aria-expanded="false"
+								aria-controls="box-two">
+								<i class="fas fa-chevron-up arrow" aria-hidden="true"></i>
+								Funcionalidad
+							</button>
+						</h2>
+						<div id="box-two" class="accordion-collapse collapse"
+							aria-labelledby="panelsStayOpen-headingTwo">
+							<div class="accordion-body py-1 px-0 menu-body">
+								<nav>
+									<div class="nav nav-menu " id="nav-tab" role="tablist">
+										<a class="py-1 px-3" id="establecimientos-tab" data-bs-toggle="tab"
+											data-bs-target="#establecimientos" role="tab"
+											aria-controls="establecimientos" aria-selected="true">Item 1</a>
+										<!--  -->
+										<a class="py-1 px-3" id="puntosDeEmision-tab" data-bs-toggle="tab"
+											data-bs-target="#puntosDeEmision" role="tab" aria-controls="puntosDeEmision"
+											aria-selected="true">Item 2</a>
+										<!--  -->
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Movil -->
+				<div class="accordion main-movil" id="box-sidebar-movil">
+					<!--  -->
+					<div class="menu-item">
+						<h2 class="accordion-header" id="panelsStayOpen-headingOne">
+							<button class="btn-collapse-menu bg-transparent border-0" type="button"
+								data-bs-toggle="collapse" data-bs-target="#box-one" aria-expanded="true"
+								aria-controls="box-one">
+								<i class="fas fa-chevron-up arrow" aria-hidden="true"></i>
+								Que hacer antes sofadcon
+							</button>
+						</h2>
+						<div id="box-one" class="accordion-collapse collapse show"
+							aria-labelledby="panelsStayOpen-headingOne">
+							<div class="accordion-body py-1 px-0 menu-body">
+								<nav>
+									<div class="nav nav-menu " id="nav-tab" role="tablist">
+										<a class="py-1 px-3 active" id="obtener-firma-electronica-movil-tab"
+											data-bs-toggle="tab" data-bs-target="#obtener-firma-electronica-movil"
+											role="tab" aria-controls="obtener-firma-electronica-movil"
+											aria-selected="true">
+											Obtener firma
+											electronica </a>
+										<a class="py-1 px-3" id="autorizacionSRI-movil-tab" data-bs-toggle="tab"
+											data-bs-target="#autorizacionSRI-movil" role="tab"
+											aria-controls="autorizacionSRI-movil" aria-selected="true">Autorización del
+											SRI</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+					<!--  -->
+					<div class="menu-item">
+						<h2 class="accordion-header" id="panelsStayOpen-headingThree">
+							<button class="btn-collapse-menu bg-transparent border-0 collapsed" type="button"
+								data-bs-toggle="collapse" data-bs-target="#box-four" aria-expanded="false"
+								aria-controls="box-four">
+								<i class="fas fa-chevron-up arrow" aria-hidden="true"></i>
+								Soy movil Menu
+							</button>
+						</h2>
+						<div id="box-four" class="accordion-collapse collapse"
+							aria-labelledby="panelsStayOpen-headingThree">
+							<div class="accordion-body py-1 px-0 menu-body">
+								<nav>
+									<div class="nav nav-menu " id="nav-tab" role="tablist">
+										<a class="py-1 px-3" id="ejemplo-video-tab" data-bs-toggle="tab"
+											data-bs-target="#ejemplo-video" role="tab" aria-controls="ejemplo-video"
+											aria-selected="true">Soy movil menu</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
+		</div>
+
+		<!--Main Web  -->
+		<main class="bd-main order-1 main-web">
+			<div class="container">
+				<div class="tab-content" id="nav-tabContent">
+					<!--  -->
+					<!-- Que hacer antes de sofadcon -->
+					<!-- Obtener Firma Electronica -->
+					<div class="tab-pane fade active show" id="obtener-firma-electronica" role="tabpanel"
+						aria-labelledby="obtener-firma-electronica-tab" tabindex="0">
+						<div class="row gy-4 m-0">
+							<div class="col-12 mt-0" id="firmaElectronica">
+								<h1 class="bd-title mb-3">¿Qué hacer para obtener SOFADCON?</h1>
+								<h2 class="bd-subtitle fw-bold mb-0">Obtener firma electronica Sri</h2>
+								<div class="separating-line my-3"></div>
+								<strong>Qué es la firma electronica</strong>
+								<div class="bd-content-img">
+									<div class="box-img mx-auto">
+										<img src="https://firmaselectronicasecuador.com/wp-content/uploads/2022/05/img-quienes-somos-1.png"
+											class="w-100" alt="img" data-fancybox="gallery">
+									</div>
+								</div>
+								<!--  -->
+								<p class="bd-content">
+									Un certificado de firma electrónica es un archivo digital el cual contiene
+									campos que permiten
+									vincular
+									y determinar la identidad de una persona determinada.
+									De acuerdo a nuestra legislación Ley de Comercio Electrónico, Firmas
+									Electrónicas Y Mensajes de
+									Datos:
+								</p>
+								<p class="bd-content">
+									<strong>“Art. 20.- “Certificado de firma electrónica.-</strong> Es el mensaje de
+									datos que certifica
+									la vinculación de una firma electrónica con una persona determinada, a través de
+									un proceso de
+									comprobación que confirma su identidad.”
+								</p>
+								<p class="bd-content">
+									<strong> “Art. 22.- Requisitos del certificado de firma electrónica.-</strong>
+									El certificado de
+									firma electrónica para ser considerado válido contendrá los siguientes
+									requisitos:
+								</p>
+								<!--  -->
+								<div class="box-vignette">
+									<nav class="list-decore ms-4">
+										<ul class="lh-lg">
+											<li>Identificación de la entidad de certificación de información.</li>
+											<li>Domicilio legal de la entidad de certificación de información.</li>
+											<li>Los datos del titular del certificado que permitan su ubicación e
+												identificación.</li>
+											<li>El método de verificación de la firma del titular del certificado.
+											</li>
+											<li>Las fechas de emisión y expiración del certificado.</li>
+											<li>El número único de serie que identifica el certificado.</li>
+											<li>La firma electrónica de la entidad de certificación de información.
+											</li>
+											<li>Las limitaciones o restricciones para los usos del certificado.</li>
+											<li>Los demás señalados en esta ley y los reglamentos.</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<div class="col-12" id="adquirirfirmaElectronica">
+								<h2 class="bd-title mb-3">¿Donde puedo adquirir mi firma electrónica?</h2>
+								<div class="separating-line mb-3"></div>
+								<!--  -->
+								<p class="bd-content">Puedes Ingresar a la página web del Banco Central del Ecuador:
+									<a href="https://www.eci.bce.ec/ target=" _blank"=""><strong
+											class="fs-5 text-blue">www.eci.bce.ec</strong></a>, ingresar a la opción
+									de firma
+									electrónica y
+									llenar el formulario correspondiente.
+								</p>
+								<p class="bd-content">Y también puedes adquirir tu firma electrónica en los entes
+									que estén
+									autorizados y
+									regulados con la <span class="text-uppercase">arcotel</span></p>
+							</div>
+						</div>
+					</div>
+					<!--Autorizacion SRI  -->
+					<div class="tab-pane fade" id="autorizacionSRI" role="tabpanel"
+						aria-labelledby="autorizacionSRI-tab" tabindex="0">
+						<div class="row gy-4 m-0">
+							<div class="col-12 mt-0" id="obtenerAutorizacion">
+								<h1 class="bd-title mb-3">Obtener autorización de rentas para emitir documentos
+									electrónicos.</h1>
+								<div class="separating-line mb-3"></div>
+								<!--  -->
+								<p class="bd-content">
+									Para poder autorizar sus documentos electrónicos debe tener la autorización e
+									rentas para
+									emitir documentos electrónico en ambiente de <strong>Producción.</strong>
+								</p>
+								<p class="bd-content">
+									La autorización la puede obtener desde la página de Sri en línea que esta
+									habilitado las 24
+									horas través del siguiente enlace:<a
+										href="https://srienlinea.sri.gob.ec/sri-en-linea/inicio/NAT"
+										target="_blank"><strong class="fs-5 text-blue">
+											https://srienlinea.sri.gob.ec/sri-en-linea/inicio/NAT</strong></a>
+								</p>
+							</div>
+							<!--  -->
+							<div class="col-12 mt-0" id="procedimientoRealizarTramite" <h1 class="bd-title mb-3">
+								Procedimiento para realizar el trámite en línea:</h1>
+								<div class="separating-line mb-3"></div>
+								<!--  -->
+								<div class="box-vignette">
+									<nav class="list-decore ms-4">
+										<ul class="list-group-numbered lh-lg">
+											<li>Ingresar a la página web: <a href="www.sri.gob.ec"
+													target="_blank"><strong
+														class="fs-5 text-blue">www.sri.gob.ec</strong></a></li>
+											<li>Ingresar a SRI en línea</li>
+											<li>Escoger la opción facturación electrónica</li>
+											<li>Escoger SRI yo en línea</li>
+											<li>Ingresar número de identificación y clave</li>
+											<li>Configurar perfil, firma y cargar información de productos</li>
+											<li>Escoger la opción emisión</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--end  -->
+					<!--  -->
+					<!-- Primeros Pasos -->
+					<!-- Establecimientos -->
+					<div class="tab-pane fade" id="establecimientos" role="tabpanel">
+						<div class="row gy-4 m-0">
+							<div class="col-12 mt-0" id="#">
+								<p class="bd-content text-arrow ps-3 mt-3">
+									Menu <i class="fas fa-chevron-right" aria-hidden="true"></i> Configuracion
+									<i class="fas fa-chevron-right" aria-hidden="true"></i> Facturacion <i
+										class="fas fa-chevron-right" aria-hidden="true"></i> Establecimientos.
+								</p>
+								<h2 class="bd-title mb-3">Establecimiento</h2>
+								<div class="separating-line my-3"></div>
+								<div class="bd-content-img">
+									<p class="bd-content">
+										Para crear un nuevo establecimiento la opción la encontramos en:
+									</p>
+
+									<div class="w-100">
+										<img src="../assets/img/imgDoc-Establecimiento/establecimiento.png"
+											class="w-100" alt="establecimiento">
+									</div>
+								</div>
+								<!--  -->
+								<div class="separating-line my-4"></div>
+								<h2 class="bd-subtitle fw-bold px-2 mb-4">Generar Nuevo registro</h2>
+								<div class="bd-content-img">
+									<div class="w-100">
+										<img src="../assets/img/imgGlobal/crear.png" class="w-100"
+											alt="establecimiento">
+									</div>
+								</div>
+								<!--  -->
+								<div class="separating-line my-4"></div>
+								<h2 class="bd-subtitle fw-bold px-2 mb-4">Llenar los campos requeridos</h2>
+								<div class="bd-content-img">
+									<div class="w-100">
+										<img src="../assets/img/imgDoc-Establecimiento/establecimiento-3.png"
+											class="w-100" alt="establecimiento">
+									</div>
+								</div>
+								<!--  -->
+								<div class="separating-line my-4"></div>
+								<h2 class="bd-subtitle fw-bold px-2 mb-4">Una vez llenado la información grabamos
+									nuestro
+									establecimiento
+								</h2>
+								<div class="bd-content-img">
+									<div class="w-100">
+										<img src="../assets/img/imgGlobal/guardar.png" class="w-100"
+											alt="establecimiento">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Puntos de Emisión -->
+					<div class="tab-pane fade" id="puntosDeEmision" role="tabpanel">
+						<div class="row gy-4 m-0">
+							<div class="col-12 mt-0" id="#">
+								<p class="bd-content text-arrow ps-3 mt-3">
+									Menu<i class="fas fa-chevron-right" aria-hidden="true"></i>
+									Configuracion<i class="fas fa-chevron-right" aria-hidden="true"></i>
+									Facturacion<i class="fas fa-chevron-right" aria-hidden="true"></i>
+									Puntos de emisión.
+								</p>
+								<h2 class="bd-title mb-3">Puntos Emisión </h2>
+								<div class="separating-line my-3"></div>
+								<div class="bd-content-img">
+									<p class="bd-content">
+										Antes de proceder a facturar debe tener configurado un establecimiento y el
+										punto de emisión en ambiente producción.
+									</p>
+									<p class="bd-content">
+										Para crear un nuevo punto de emisión la opción la encontramos en:
+									</p>
+
+									<div class="w-100">
+										<img src="../assets/img/imgDoc-Establecimiento/establecimiento.png"
+											class="w-100" alt="puntoEmision">
+									</div>
+								</div>
+
+								<!--  -->
+								<div class="separating-line my-4"></div>
+								<h2 class="bd-subtitle fw-bold px-2 mb-4">Generar Nuevo registro</h2>
+								<div class="bd-content-img">
+									<div class="w-100">
+										<img src="../assets/img/imgGlobal/crear.png" class="w-100" alt="puntoEmision">
+									</div>
+								</div>
+								<!--  -->
+								<div class="separating-line my-4"></div>
+								<h2 class="bd-subtitle fw-bold px-2 mb-4">Llenar los campos requeridos</h2>
+								<div class="bd-content-img">
+									<div class="w-100">
+										<img src="../assets/img/imgDoc-PuntoEmision/puntoEmision-2.png" class="w-100"
+											alt="puntoEmision">
+									</div>
+								</div>
+								<!--  -->
+								<div class="separating-line my-4"></div>
+								<h2 class="bd-subtitle fw-bold px-2 mb-4">Una vez llenada la infromación guardamos
+									nuestro Punto de
+									Emisión
+
+								</h2>
+								<div class="bd-content-img">
+									<div class="w-100">
+										<img src="../assets/img/imgGlobal/guardar.png" class="w-100" alt="puntoEmision">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Cambiar Contraseña -->
+					<div class="tab-pane fade" id="cambiocontrasena" role="tabpanel">
+						<div class="row gy-4 m-0">
+							<div class="col-12 mt-0" id="#">
+								<p class="bd-content text-arrow ps-3 mt-3">
+									Menú <i class="fas fa-chevron-right" aria-hidden="true"></i> Configuración <i
+										class="fas fa-chevron-right" aria-hidden="true"></i> Cambio de Contraseña
+								</p>
+								<h2 class="bd-title mb-3">Cambiar Contraseña </h2>
+								<div class="separating-line my-3"></div>
+								<div class="bd-content-img">
+									<p class="bd-content">
+										Para poder cambiar la contraseña con la cual ingresamos al sistema la podemos
+										hacer dirigiéndose
+										en el:
+									</p>
+
+									<div class="w-100">
+										<img src="../assets/img/imgDoc-CambiarContrasena/cambiarContrasena-1.png"
+											class="w-100" alt="contrasena">
+									</div>
+								</div>
+								<!--  -->
+								<div class="separating-line my-4"></div>
+								<h2 class="bd-subtitle fw-bold px-2 mb-4">Nos aparecerá el siguiente formulario</h2>
+								<div class="bd-content-img">
+									<div class="w-100">
+										<img src="../assets/img/imgDoc-CambiarContrasena/cambiarContrasena-2.png"
+											class="w-100" alt="cambiarContrasena">
+									</div>
+									<p class="bd-content mt-3">El cual debemos digitar nuestra contraseña actual y la
+										nueva contraseña.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Recuperar Contraseña -->
+					<div class="tab-pane fade" id="recuperarContrasena" role="tabpanel">
+
+					</div>
+					<!-- Cambiar Correo Electrónico-->
+					<div class="tab-pane fade" id="cambiarCorreoelectronico" role="tabpanel">
+
+					</div>
+					<!-- end -->
+					<!--  -->
+					<!--Facturero Sofadcon-->
+					<div class="tab-pane fade" id="facturero-sofadcon" role="tabpanel"
+						aria-labelledby="facturero-sofadcon-tab" tabindex="0">
+						<div class="row gy-4 m-0">
+							<div class="col-12 mt-0" id="sofadconFactureroMovil">
+								<h1 class="bd-title mb-3">SofAdCon Facturero Móvil </h1>
+								<div class="separating-line mb-3"></div>
+								<!--  -->
+								<div class="bd-content-img">
+									<p class="bd-content">
+										Es una aplicación que te permite la gestión de facturación de una manera
+										amigable y eficaz,
+										permitiéndote el ahorro de tiempo y el cumplimiento de las normas
+										tributarias vigentes.
+									</p>
+									<p class="bd-content">
+										Factura desde nuestra aplicación móvil y ella se encargará de su emisión y
+										envío electrónico.
+									</p>
+									<div class="bg-blue-secund p-2">
+										<iframe width="100%" height="415"
+											src="https://www.youtube.com/embed/1TZL3rh-hJA"
+											title="Conoce nuestro Facturero móvil" frameborder="0" allow="accelerometer;
+											autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Ejemplos -->
+					<div class="tab-pane fade" id="ejemplo-video" role="tabpanel" aria-labelledby="ejemplo-video-tab"
+						tabindex="0">
+						<div class="row gy-4 m-0">
+							<div class="col-12 mt-0" id="ejContenidoBg">
+								<h1 class="bd-title mb-3">Ejemplos </h1>
+								<div class="separating-line my-3"></div>
+								<h2 class="bd-subtitle fw-bold mb-3">Contenido con Background</h2>
+								<!--  -->
+								<div class="w-100 bg-blue-secund p-5 mb-3">
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis commodi assumenda
+									laborum maxime
+									corrupti
+									cupiditate modi quas aliquid id, incidunt libero adipisci earum nam minus!
+									Architecto veritatis
+									porro
+									asperiores quod?
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta animi, cumque
+									vero porro
+									similique mollitia
+									quasi dolorum asperiores illo in aliquid expedita odio repudiandae velit
+									voluptate iure
+									praesentium
+									doloribus. Optio.
+								</div>
+							</div>
+							<!--  -->
+							<div class="col-12 mt-0" id="vinetas">
+								<div class="separating-line my-3"></div>
+								<h2 class="bd-subtitle fw-bold mb-0">Contenido de Viñetas</h2>
+								<!--  -->
+								<div class="box-vignette" id="vinetasList">
+									<h2 class="bd-subtitle fw-bold my-3">Viñetas Decore</h2>
+									<nav class="list-decore ms-4">
+										<ul class="lh-lg">
+											<li>item</li>
+											<li>item</li>
+											<li>item</li>
+											<li>item</li>
+										</ul>
+									</nav>
+								</div>
+								<!--  -->
+								<div class="box-vignette" id="vinetasList">
+									<h2 class="bd-subtitle fw-bold my-3">Viñetas sin Decore</h2>
+									<nav class="ms-4">
+										<ul class="lh-lg">
+											<li>item</li>
+											<li>item</li>
+											<li>item</li>
+											<li>item</li>
+										</ul>
+									</nav>
+								</div>
+								<!--  -->
+								<div class="box-vignette" id="vinetasNumber">
+									<h2 class="bd-subtitle fw-bold my-3">Viñetas Number</h2>
+									<nav class="list-decore ms-4">
+										<ul class="list-group-numbered lh-lg">
+											<li>itemt</li>
+											<li>Ingresar a SRI en línea</li>
+											<li>item</li>
+											<li>item</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<!--  -->
+							<div class="col-12" id="boxImg">
+								<div class="separating-line my-3"></div>
+								<h2 class="bd-subtitle fw-bold mb-3">Contenido de Img</h2>
+								<div class="box-img">
+									<img src="https://firmaselectronicasecuador.com/wp-content/uploads/2022/05/img-quienes-somos-1.png"
+										class="w-100" alt="img">
+								</div>
+							</div>
+							<!--  -->
+							<div class="col-12" id="boxVideoContenido">
+								<div class="separating-line my-3"></div>
+								<h2 class="bd-subtitle fw-bold mb-3">Contenido con Contenido</h2>
+								<div class="clearfix mt-3">
+									<div class="col-md-6 float-md-end mb-3 ms-md-3">
+										<iframe width="100%" src="https://www.youtube.com/embed/ZK9iP5PEhSU"
+											frameborder="0"
+											allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+											allowfullscreen=""></iframe>
+									</div>
+									<p>
+										A paragraph of placeholder text. We're using it here to show the use of the
+										clearfix
+										class. We're adding quite a few meaningless phrases here to demonstrate how
+										the
+										columns interact here with the floated image.
+									</p>
+									<p>
+										As you can see the paragraphs gracefully wrap around the floated image. Now
+										imagine
+										how this would look with some actual content in here, rather than just this
+										boring
+										placeholder text that goes on and on, but actually conveys no tangible
+										information
+										at. It simply takes up space and should not really be read.
+									</p>
+
+									<p>
+										And yet, here you are, still persevering in reading this placeholder text,
+										hoping
+										for some more insights, or some hidden easter egg of content. A joke,
+										perhaps.
+										Unfortunately, there's none of that here.
+									</p>
+								</div>
+							</div>
+							<!--  -->
+							<div class="col-12" id="boxVideo">
+								<div class="separating-line my-3"></div>
+								<h2 class="bd-subtitle fw-bold mb-3">Video</h2>
+								<div class="bg-blue-secund p-2">
+									<iframe width="100%" height="315" src="https://www.youtube.com/embed/ZK9iP5PEhSU"
+										frameborder="0"
+										allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+										allowfullscreen=""></iframe>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--  -->
+			<div class="sidebar-navegation d-none d-md-block">
+				<strong class="fs-5 ms-3">Contenido</strong>
+				<nav class="nav-open-click mt-2 " id="scrollSpyBody">
+					<ul class="p-0 d-flex flex-column" data-relacion="obtener-firma-electronica">
+						<a href="#firmaElectronica" class="list-group-item active px-3 borderlef-li">Qué es la firma
+							electronica</a>
+						<a class="px-3 borderlef-li list-group-item" href="#adquirirfirmaElectronica">¿Donde puedo
+							adquirir mi firma
+							electrónica?</a>
+					</ul>
+					<!--  -->
+					<ul class="p-0 d-none" data-relacion="autorizacionSRI">
+						<a class="list-group-item active px-3 borderlef-li" href="#obtenerAutorizacion">Obtener
+							autorización de rentas para emitir documentos electrónicos</a>
+						<a class="list-group-item px-3 borderlef-li" href="#procedimientoRealizarTramite">Procedimiento
+							para realizar el trámite en línea</a>
+					</ul>
+					<!--  -->
+					<ul class="p-0 d-none" data-relacion="facturero-sofadcon">
+						<a class="list-group-item active px-3 borderlef-li" href="#sofadconFactureroMovil">SofAdCon
+							Facturero Móvil</a>
+					</ul>
+					<!--  -->
+					<ul class="p-0 d-none" data-relacion="ejemplo-video">
+						<a class="list-group-item active px-3 borderlef-li" href="#ejContenidoBg">Ejemplo con Bg</a>
+						<a class="list-group-item px-3 borderlef-li" href="#vinetas">Viñetas</a>
+						<a class="list-group-item px-3 borderlef-li" href="#boxImg">Img</a>
+						<a class="list-group-item px-3 borderlef-li" href="#boxVideoContenido">Video y Contenido</a>
+						<a class="list-group-item px-3 borderlef-li" href="#boxVideo">Video</a>
+					</ul>
+				</nav>
+			</div>
+			<!--  -->
+			<div class="container-xxl bd-footer position-relative w-100 mt-3 px-0 d-flex">
+				<div class="row py-2 m-0 gy-2 pb-3">
+					<div class="col-12 d-flex box-useful gap-2 col-md-6 col-lg-12 ">
+						<h3 class="text-useful my-auto">¿Fue útil esta pagina?</h3>
+						<button type="button">si</button>
+						<button type="">no</button>
+					</div>
+
+				</div>
+				<div class="sidebar-navegation d-none d-md-block h-100"></div>
+
+			</div>
+		</main>
+		<!-- Main movil -->
+		<main class="bd-main order-1 main-movil">
+			<div class="container">
+				<div class="tab-content" id="nav-tabContent">
+					<!--  -->
+					<!-- Que hacer antes de sofadcon -->
+					<!-- Obtener Firma Electronica -->
+					<div class="tab-pane fade active show" id="obtener-firma-electronica-movil" role="tabpanel"
+						aria-labelledby="obtener-firma-electronica-movil-tab" tabindex="0">
+						<div class="row gy-4 m-0">
+							<div class="col-12 mt-0" id="firmaElectronica">
+								<h1 class="bd-title mb-3">¿Qué hacer para obtener SOFADCON?</h1>
+								<h2 class="bd-subtitle fw-bold mb-0">Obtener firma electronica Sri</h2>
+								<div class="separating-line my-3"></div>
+								<strong>Qué es la firma electronica</strong>
+								<div class="bd-content-img">
+									<div class="box-img mx-auto">
+										<img src="https://firmaselectronicasecuador.com/wp-content/uploads/2022/05/img-quienes-somos-1.png"
+											class="w-100" alt="img">
+									</div>
+								</div>
+								<!--  -->
+								<p class="bd-content">
+									Un certificado de firma electrónica es un archivo digital el cual contiene
+									campos que permiten
+									vincular
+									y determinar la identidad de una persona determinada.
+									De acuerdo a nuestra legislación Ley de Comercio Electrónico, Firmas
+									Electrónicas Y Mensajes de
+									Datos:
+								</p>
+								<p class="bd-content">
+									<strong>“Art. 20.- “Certificado de firma electrónica.-</strong> Es el mensaje de
+									datos que certifica
+									la vinculación de una firma electrónica con una persona determinada, a través de
+									un proceso de
+									comprobación que confirma su identidad.”
+								</p>
+								<p class="bd-content">
+									<strong> “Art. 22.- Requisitos del certificado de firma electrónica.-</strong>
+									El certificado de
+									firma electrónica para ser considerado válido contendrá los siguientes
+									requisitos:
+								</p>
+								<!--  -->
+								<div class="box-vignette">
+									<nav class="list-decore ms-4">
+										<ul class="lh-lg">
+											<li>Identificación de la entidad de certificación de información.</li>
+											<li>Domicilio legal de la entidad de certificación de información.</li>
+											<li>Los datos del titular del certificado que permitan su ubicación e
+												identificación.</li>
+											<li>El método de verificación de la firma del titular del certificado.
+											</li>
+											<li>Las fechas de emisión y expiración del certificado.</li>
+											<li>El número único de serie que identifica el certificado.</li>
+											<li>La firma electrónica de la entidad de certificación de información.
+											</li>
+											<li>Las limitaciones o restricciones para los usos del certificado.</li>
+											<li>Los demás señalados en esta ley y los reglamentos.</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<div class="col-12" id="adquirirfirmaElectronica">
+								<h2 class="bd-title mb-3">¿Donde puedo adquirir mi firma electrónica?</h2>
+								<div class="separating-line mb-3"></div>
+								<!--  -->
+								<p class="bd-content">Puedes Ingresar a la página web del Banco Central del Ecuador:
+									<a href="https://www.eci.bce.ec/ target=" _blank"=""><strong
+											class="fs-5 text-blue">www.eci.bce.ec</strong></a>, ingresar a la opción
+									de firma
+									electrónica y
+									llenar el formulario correspondiente.
+								</p>
+								<p class="bd-content">Y también puedes adquirir tu firma electrónica en los entes
+									que estén
+									autorizados y
+									regulados con la <span class="text-uppercase">arcotel</span></p>
+							</div>
+						</div>
+					</div>
+					<!--Autorizacion SRI  -->
+					<div class="tab-pane fade" id="autorizacionSRI-movil" role="tabpanel"
+						aria-labelledby="autorizacionSRI-tab" tabindex="0">
+						<div class="row gy-4 m-0">
+							<div class="col-12 mt-0" id="obtenerAutorizacion">
+								<h1 class="bd-title mb-3">Obtener autorización de rentas para emitir documentos
+									electrónicos.</h1>
+								<div class="separating-line mb-3"></div>
+								<!--  -->
+								<p class="bd-content">
+									Para poder autorizar sus documentos electrónicos debe tener la autorización e
+									rentas para
+									emitir documentos electrónico en ambiente de <strong>Producción.</strong>
+								</p>
+								<p class="bd-content">
+									La autorización la puede obtener desde la página de Sri en línea que esta
+									habilitado las 24
+									horas través del siguiente enlace:<a
+										href="https://srienlinea.sri.gob.ec/sri-en-linea/inicio/NAT"
+										target="_blank"><strong class="fs-5 text-blue">
+											https://srienlinea.sri.gob.ec/sri-en-linea/inicio/NAT</strong></a>
+								</p>
+							</div>
+							<!--  -->
+							<div class="col-12 mt-0" id="procedimientoRealizarTramite" <h1 class="bd-title mb-3">
+								Procedimiento para realizar el trámite en línea:</h1>
+								<div class="separating-line mb-3"></div>
+								<!--  -->
+								<div class="box-vignette">
+									<nav class="list-decore ms-4">
+										<ul class="list-group-numbered lh-lg">
+											<li>Ingresar a la página web: <a href="www.sri.gob.ec"
+													target="_blank"><strong
+														class="fs-5 text-blue">www.sri.gob.ec</strong></a></li>
+											<li>Ingresar a SRI en línea</li>
+											<li>Escoger la opción facturación electrónica</li>
+											<li>Escoger SRI yo en línea</li>
+											<li>Ingresar número de identificación y clave</li>
+											<li>Configurar perfil, firma y cargar información de productos</li>
+											<li>Escoger la opción emisión</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--end  -->
+				</div>
+			</div>
+			<!--  -->
+			<div class="sidebar-navegation d-none d-md-block">
+				<strong class="fs-5 ms-3">Contenido</strong>
+				<nav class="nav-open-click mt-2 " id="scrollSpyBody">
+					<ul class="p-0 d-flex flex-column" data-relacion="obtener-firma-electronica-movil">
+						<a href="#firmaElectronica" class="list-group-item active px-3 borderlef-li">Qué es la firma
+							electronica</a>
+						<a class="px-3 borderlef-li list-group-item" href="#adquirirfirmaElectronica">¿Donde puedo
+							adquirir mi firma
+							electrónica?</a>
+					</ul>
+					<!--  -->
+					<ul class="p-0 d-none" data-relacion="autorizacionSRI-movil">
+						<a class="list-group-item active px-3 borderlef-li" href="#obtenerAutorizacion">Obtener
+							autorización de rentas para emitir documentos electrónicos</a>
+						<a class="list-group-item px-3 borderlef-li" href="#procedimientoRealizarTramite">Procedimiento
+							para realizar el trámite en línea</a>
+					</ul>
+					<!--  -->
+				</nav>
+			</div>
+			<!--  -->
+			<div class="container-xxl bd-footer position-relative w-100 mt-3 px-0 d-flex">
+				<div class="row py-2 m-0 gy-2 pb-3">
+					<div class="col-12 d-flex box-useful gap-2 col-md-6 col-lg-12 ">
+						<h3 class="text-useful my-auto">¿Fue útil esta pagina?</h3>
+						<button type="button">si</button>
+						<button type="">no</button>
+					</div>
+
+				</div>
+				<div class="sidebar-navegation d-none d-md-block h-100"></div>
+
+			</div>
+		</main>
+	</div>
+	<!--  -->
+	<div class="container-xxl bd-footer position-relative w-100 mt-3 p-0 ps-lg-2">
+		<div class="row py-2 m-0 bg-linear-primary">
+			<div class="col-12 pe-0 text-center">
+				<a class="fs-6 copyright" target="_blank" href="https://sofadcon.com/"
+					rel="noreferer noopener">info@sofadcon.com</a>
+			</div>
+			<div class="col-12 pe-0 text-center">
+				<a class="copyright mx-auto me-xxl-0" target="_blank" href="https://sofadcon.com/"
+					rel="noreferer noopener">Copyright © <span id="copyright-year">2022</span> SofAdCon Cía
+					Ltda</a>
+			</div>
+			<div class="col-12 justify-content-center d-flex align-items-center">
+				<div class="bd-iconfooter mx-auto">
+					<a href="mailto:support@syncfusion.com?" title="Follow Syncfusion on Mail" rel="noreferer noopener"
+						target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+					<a target="_blank" href="https://www.linkedin.com/company/syncfusion?trk=top_nav_home"
+						title="Follow Syncfusion on LinkedIn" rel="noreferer noopener"><i class="fab fa-linkedin-in"
+							aria-hidden="true"></i></a>
+					<a target="_blank" href="https://twitter.com/Syncfusion" title="Follow Syncfusion on Twitter"
+						rel="noreferer noopener"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+					<a target="_blank" href="https://www.facebook.com/Syncfusion" title="Follow Syncfusion on Facebook"
+						rel="noreferer noopener"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!--  -->
+	<!--  -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/bootstrap.bundle.min.js"></script>
+	<script src="../assets/js/kit-fontawesome.js"></script>
+	<script src="../assets/js/main.js"></script>
+	<script src="../assets/js/megaMennu.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+</body>
+
+</html>
